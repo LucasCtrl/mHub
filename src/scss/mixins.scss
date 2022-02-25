@@ -1,0 +1,39 @@
+@mixin screen-xs {
+  @media screen and (max-width: 599px) {
+    & {
+      @content;
+    }
+  }
+}
+
+@mixin screen-sm {
+  @media screen and (min-width: 600px) {
+    & {
+      @content;
+    }
+  }
+}
+
+@mixin screen-md {
+  @media screen and (min-width: 905px) {
+    & {
+      @content;
+    }
+  }
+}
+
+@mixin screen-lg {
+  @media screen and (min-width: 1240px) {
+    & {
+      @content;
+    }
+  }
+}
+
+@mixin screen-xl {
+  @media screen and (min-width: 1440px) {
+    & {
+      @content;
+    }
+  }
+}

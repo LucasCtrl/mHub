@@ -1,0 +1,37 @@
+$light-background: #fdfcf5;
+$light-on-background: #1a1c17;
+$light-outline: #75796d;
+
+$light-surface-variant: #e1e4d6;
+$light-on-surface: #1a1c17;
+$light-on-surface-variant: #44483e;
+
+$light-on-secondary-container: #dbe7c8;
+
+$light-primary: #426916;
+
+$light-surface-3: linear-gradient(
+    0deg,
+    rgba(66, 105, 22, 0.11),
+    rgba(66, 105, 22, 0.11)
+  ),
+  #fdfcf5;
+
+$dark-background: #1a1c17;
+$dark-on-background: #e3e3db;
+$dark-outline: #8e9285;
+
+$dark-surface-variant: #44483e;
+$dark-on-surface: #e3e3db;
+$dark-on-surface-variant: #c4c8ba;
+
+$dark-on-secondary-container: #151e0b;
+
+$dark-primary: #a6d475;
+
+$dark-surface-3: linear-gradient(
+    0deg,
+    rgba(166, 212, 117, 0.11),
+    rgba(166, 212, 117, 0.11)
+  ),
+  #1a1c17;

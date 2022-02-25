@@ -1,0 +1,16 @@
+{
+  "header": {
+    "greetings": {
+      "morning": "Good morning!",
+      "afternoon": "Good afternoon!",
+      "night":"Good evening!"
+    },
+
+    "weather": {
+      "apiKey": "openWeather-apiKey",
+      "tempUnits": "metric",
+      "lat": "",
+      "lon": ""
+    }
+  }
+}

@@ -1,0 +1,52 @@
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin-top: 64px;
+  margin-bottom: 32px;
+
+  @include screen-lg {
+    margin-top: 128px;
+    margin-bottom: 64px;
+  }
+
+  h1 {
+    @include headline-small;
+
+    @include screen-lg {
+      @include headline-large;
+    }
+  }
+
+  h2 {
+    color: $light-outline;
+    @include body-small;
+
+    @include screen-lg {
+      @include body-large;
+    }
+  }
+
+  img {
+    height: 32px;
+    width: 32px;
+
+    @include screen-lg {
+      height: 40px;
+      width: 40px;
+    }
+  }
+
+  .greetings {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .weather {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+  }
+}
