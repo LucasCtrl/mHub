@@ -12,5 +12,19 @@
       "lat": "",
       "lon": ""
     }
+  },
+
+  "searchBar": {
+    "defaultEngine": "google",
+    "zap": [
+      {
+        "shortcut": "gh",
+        "link": "https://github.com/search?q="
+      },
+      {
+        "shortcut": "yt",
+        "link": "https://www.youtube.com/results?search_query="
+      }
+    ]
   }
 }

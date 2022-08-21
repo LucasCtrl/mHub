@@ -1,0 +1,34 @@
+#searchBarForm {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 3rem;
+
+  padding: 0 24px;
+
+  background-color: $light-surface-variant;
+  border-radius: 12px;
+
+  #searchBarInput {
+    @include title-medium;
+
+    color: $light-on-surface;
+    background-color: inherit;
+    border: none;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+
+  #searchBarButton {
+    // @include title-medium;
+
+    padding: 0;
+
+    color: $light-on-surface;
+    background-color: inherit;
+    border: none;
+  }
+}
