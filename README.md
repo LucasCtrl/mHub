@@ -53,7 +53,7 @@ Almost everything is customizable, you just need to edit the `~/src/config.json`
 ![Search bar image](https://github.com/lucasctrl/mhub/blob/main/.github/screenshots/searchBar.png)
 
 - Choose your favorite search engine. `google`, `duckduckgo`, `ecosia` are available but feel free to add more by [creating a new PR](#-contributing).
-- Create custom **zap commands** with a custom zap shortcut. You'll be able to browse your favorite website through you personal home page.
+- Create custom **zap commands** with a custom zap shortcut. You'll be able to browse your favorite website through you personal home page. `gh lucasctrl/mhub` will search for `lucasctrl/mhub` on github, `yt vitejs tutorial` will search a tutorial about vitejs on YouTube.
 
 ```json
 {
