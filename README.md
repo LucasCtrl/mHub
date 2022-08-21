@@ -25,7 +25,7 @@ Almost everything is customizable, you just need to edit the `~/src/config.json`
 ![Hello image](https://github.com/lucasctrl/mhub/blob/main/.github/screenshots/header.png)
 
 - Change all the greetings by replacing the desired value.
-- Fill in your [OpenWeather](https://openweathermap.org) API key as well as your longitude and latitude ([with the Geocoding API](https://openweathermap.org/api/geocoding-api)) to see the current weather around you. *If the `weather` object is empty or does not exist, you will not being able to see the weather.*
+- Fill in your [OpenWeather](https://openweathermap.org) API key as well as your longitude and latitude ([with the Geocoding API](https://openweathermap.org/api/geocoding-api)) to see the current weather around you. *If  `weather` object is empty or does not exist, you will not being able to see the weather.*
 
 ```json
 {
@@ -42,6 +42,33 @@ Almost everything is customizable, you just need to edit the `~/src/config.json`
       "lat": "48.5839",
       "lon": "7.7455"
     }
+  }
+}
+```
+
+### 🔎 Search component
+
+> Zap the web in seconds
+
+![Search bar image](https://github.com/lucasctrl/mhub/blob/main/.github/screenshots/searchBar.png)
+
+- Choose your favorite search engine. `google`, `duckduckgo`, `ecosia` are available but feel free to add more by [creating a new PR](#-contributing).
+- Create custom **zap commands** with a custom zap shortcut. You'll be able to browse your favorite website through you personal home page.
+
+```json
+{
+  "searchBar": {
+    "defaultEngine": "google",
+    "zap": [
+      {
+        "shortcut": "gh",
+        "link": "https://github.com/search?q="
+      },
+      {
+        "shortcut": "yt",
+        "link": "https://www.youtube.com/results?search_query="
+      }
+    ]
   }
 }
 ```
