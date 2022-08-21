@@ -1,6 +1,6 @@
 import config from '../../config.json'
 
-const displayGreetings = () => {
+const greetingsWidget = () => {
   // ----- DISPLAY GREETINGS -----
   let greetings = document.querySelector('#greetings')
   if (getCurrentDate().hours >= 5 && getCurrentDate().hours < 12)
@@ -17,7 +17,7 @@ const displayGreetings = () => {
   } ${getCurrentDate().date}`
 }
 
-export default displayGreetings
+export default greetingsWidget
 
 const getCurrentDate = () => {
   const monthNames = [

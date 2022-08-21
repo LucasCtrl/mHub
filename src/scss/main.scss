@@ -6,8 +6,8 @@
 @import 'variables/fonts.scss';
 @import 'variables/colors.scss';
 
-@import 'components/grid.scss';
-@import 'components/header.scss';
+@import 'widget/grid.scss';
+@import 'widget/header.scss';
 
 body {
   color: $light-on-background;

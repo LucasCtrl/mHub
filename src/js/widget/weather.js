@@ -1,6 +1,6 @@
 import config from '../../config.json'
 
-const displayCurrentWeather = async () => {
+const weatherWidget = async () => {
   if (config.header.weather != undefined) {
     // ----- GET CURRENT WEATHER -----
     const { lat, lon, tempUnits, apiKey } = config.header.weather
@@ -29,4 +29,4 @@ const displayCurrentWeather = async () => {
   }
 }
 
-export default displayCurrentWeather
+export default weatherWidget

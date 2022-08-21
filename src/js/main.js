@@ -1,11 +1,11 @@
-import displayCurrentWeather from './components/weather.js'
-import displayGreetings from './components/greetings.js'
+import greetingsWidget from './widget/greetings.js'
+import weatherWidget from './widget/weather.js'
 
 import '../scss/main.scss'
 
 function main() {
-  displayCurrentWeather()
-  displayGreetings()
+  greetingsWidget()
+  weatherWidget()
 }
 
 window.onload = main()
