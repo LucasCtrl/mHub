@@ -26,5 +26,23 @@
         "link": "https://www.youtube.com/results?search_query="
       }
     ]
-  }
+  },
+
+  "cardsWidget": [
+    {
+      "title": "GitHub",
+      "link": "https://github.com/",
+      "image": "github.svg"
+    },
+    {
+      "title": "Notion",
+      "link": "https://notion.so/",
+      "image": "notion.png"
+    },
+    {
+      "title": "Proton Mail",
+      "link": "https://mail.proton.me/",
+      "image": "protonmail.png"
+    }
+  ]
 }

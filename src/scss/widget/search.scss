@@ -5,10 +5,15 @@
 
   height: 3rem;
 
+  margin-bottom: 16px;
   padding: 0 24px;
 
   background-color: $light-surface-variant;
   border-radius: 12px;
+
+  @include screen-md {
+    margin-bottom: 24px;
+  }
 
   #searchBarInput {
     @include title-medium;

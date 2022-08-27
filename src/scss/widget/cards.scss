@@ -1,0 +1,46 @@
+#cards {
+  .card {
+    display: flex;
+    align-items: center;
+
+    height: 72px;
+
+    background-color: $light-surface-variant;
+
+    border-radius: 12px;
+
+    a {
+      display: flex;
+      align-items: center;
+
+      padding: 16px;
+
+      height: 40px;
+      width: 100%;
+
+      @include title-medium;
+      text-decoration: none;
+
+      &:visited,
+      &:active {
+        color: inherit;
+      }
+
+      .img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        height: 40px;
+        width: 40px;
+
+        margin-right: 16px;
+
+        img {
+          max-height: 32px;
+          max-width: 32px;
+        }
+      }
+    }
+  }
+}
